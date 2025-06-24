@@ -1,0 +1,4 @@
+--index-url https://pypi.tuna.tsinghua.edu.cn/simple
+certbot==4.0.0
+certbot-dns-route53==4.0.0
+boto3==1.38.0
