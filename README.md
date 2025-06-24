@@ -5,7 +5,7 @@ The China CloudFront SSL Plugin V2 is an enhanced solution from Amazon Web Servi
 ## Features
 
 - **Cost-Effective**: Built using serverless architecture and open-source tools, it incurs minimal charges based on the invocation of serverless services, with a default renewal cycle of every 80 days.
-  - *This solution adopts a serverless architecture with nearly zero cost for each certificate issuance, including serverless resource execution costs, minimal Amazon S3 storage fees, and Amazon CloudWatch log storage fees. However, domain control validation requires a fee of approximately 3.575 RMB per month for using Amazon Route 53 for domain hosting.*
+  - *This solution adopts a serverless architecture with nearly zero cost for each certificate issuance, including serverless resource execution costs, minimal Amazon S3 storage cost, Amazon DynamoDB cost, and Amazon CloudWatch log storage cost. However, domain control validation requires a fee of approximately 3.575 RMB per month for using Amazon Route 53 for domain hosting.*
 
 - **Simplified Deployment**: The V2 solution features a two-stack architecture (certbot-stack and controller-stack) for better separation of concerns and enhanced maintainability.
 
