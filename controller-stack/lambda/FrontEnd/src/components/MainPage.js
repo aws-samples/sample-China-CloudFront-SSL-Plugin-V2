@@ -32,7 +32,7 @@ function MainPage() {
                 {
                     type: "button",
                     text: t('Manual'),
-                    href: "/",
+                    href: t('ManualLink'),
                     external: true,
                     externalIconAriaLabel: " (opens in a new tab)"
                 },
