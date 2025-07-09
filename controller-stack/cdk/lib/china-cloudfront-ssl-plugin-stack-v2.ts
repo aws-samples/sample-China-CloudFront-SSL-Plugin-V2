@@ -232,6 +232,7 @@ export class ChinaCloudFrontSslPluginStackV2 extends cdk.Stack {
                 effect: Effect.ALLOW,
                 actions: [
                     "iam:GetRole",
+                    "iam:GetRolePolicy",
                     "iam:PassRole",
                     "iam:TagRole",
                     "iam:DetachRolePolicy",
@@ -611,7 +612,7 @@ export class ChinaCloudFrontSslPluginStackV2 extends cdk.Stack {
 
         const httpAuthorizer = new HttpLambdaAuthorizer('HttpAuthorizer', authorizer_lambda_fn, {
             responseTypes: [HttpLambdaResponseType.SIMPLE], // Define if returns simple and/or iam response
-            resultsCacheTtl: cdk.Duration.minutes(60),
+            resultsCacheTtl: cdk.Duration.minutes(1),
         });
 
         const frontendIntegration = new HttpLambdaIntegration('FrontendIntegration', frontend_lambda_fn);
