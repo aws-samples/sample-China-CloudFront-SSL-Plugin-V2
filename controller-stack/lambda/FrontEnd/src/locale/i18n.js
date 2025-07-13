@@ -22,7 +22,7 @@ const resources = {
 			"DeleteEmail": "Delete Email Address",
 			"DeleteNote": "To confirm deletion, enter the name of the name of deleted in the text input field. Yon can't undo this action.",
 			"DeleteNotice": "Please note: Before deleting the project, make sure you have disassociated the certificates on CloudFront and manually deleted all certificates in the certificate list. Otherwise, the project cannot be deleted.",
-			"DeleteNoticeTitle": "Delete Notice Title",
+			"DeleteNoticeTitle": "Unable to delete project",
 			"DeleteProject":"Delete Project",
 			"DomainNames": "Domain Names (seperated by ,)",
 			"Email": "Email",
