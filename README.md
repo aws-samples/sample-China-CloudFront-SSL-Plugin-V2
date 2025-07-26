@@ -169,6 +169,7 @@ If you need to customize the solution:
 ## Documentation
 
 - Solution Deployment Guide: `https://www.amazonaws.cn/en/getting-started/tutorials/create-ssl-with-cloudfront/`
+- Solution Deployment Guide: ([English](https://www.amazonaws.cn/en/getting-started/tutorials/create-ssl-with-cloudfront) | [简体中文](https://www.amazonaws.cn/getting-started/tutorials/create-ssl-with-cloudfront))
 
 ## Security
 
