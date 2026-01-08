@@ -169,6 +169,8 @@ If you need to customize the solution:
 ## Documentation
 
 - Solution Deployment Guide: ([English](https://www.amazonaws.cn/en/getting-started/tutorials/create-ssl-with-cloudfront/) | [简体中文](https://www.amazonaws.cn/getting-started/tutorials/create-ssl-with-cloudfront/))
+- Blog (in Chinese): [ttps://aws.amazon.com/cn/blogs/china/china-cloudfront-ssl-plugin-v2-a-one-stop-certificate-solution-for-cloudfront-in-china-region/
+](https://aws.amazon.com/cn/blogs/china/china-cloudfront-ssl-plugin-v2-a-one-stop-certificate-solution-for-cloudfront-in-china-region/)
 
 ## Security
 
